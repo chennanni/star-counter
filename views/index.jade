@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+  head
+    title= title
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js')
+    script(src='https://code.jquery.com/jquery-2.1.4.min.js')
+    script(src='/js/script.js')
+    script(src='/js/background.js')
+    link(href='/css/style.css', rel='stylesheet')
+  body
+    .container
+        .background
+            .content-wrapper
+                p.content-title
+                    | #{locals.title}
+                p.content-subtitle
+                    | Scroll down and up to see details!
+        .background
+            .content-wrapper
+                p.content-title
+                    | #{locals.github_like_count}
+                p.content-subtitle
+                    | Projects: Github project likes
+        .background
+            .content-wrapper
+                p.content-title
+                    | #{locals.blog_like_count}
+                p.content-subtitle
+                    | Blogs: Personal blog post likes
+        .background
+            .content-wrapper
+                p.content-title
+                    | #{locals.stackoverflow_reputation_count}
+                p.content-subtitle
+                    | Forum: Stack Overflow reputation
+    
+    // h2 #{locals.title}
+    // p
+    //     | My Collected Stars
+    //     ul
+    //         li 
+    //             | Projects: Github project likes - #{locals.github_like_count}
+    //         li 
+    //             | Blogs: Personal blog post likes - #{locals.blog_like_count}
+    //         li 
+    //             | Forum: Stack Overflow reputation - #{locals.stackoverflow_reputation_count}

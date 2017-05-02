@@ -1,0 +1,17 @@
+{
+  "name": "star-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max <maxstackpush@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.3.0",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "sequence": "^3.0.0",
+  }
+}
