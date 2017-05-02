@@ -12,7 +12,7 @@ This web app get the following information and display with beautiful presentati
 - a user’s tech blog likes
 - a user’s stack overflow reputation
 
-live demo click [here](link-to-do)
+live demo click [here](https://max-star-counter.herokuapp.com)
 
 ## Run instruction
 
