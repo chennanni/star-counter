@@ -52,6 +52,8 @@ Request Workflow
 - github [api](https://developer.github.com/v3)
 - likebtn.com [api](https://likebtn.com/en/like-button-statistics-api#api-stats)
 - stack overflow [api](https://api.stackexchange.com/docs)
+- web page template from Emily Hayman - [CodePen](https://codepen.io/eehayman/pen/qdGZJr)
+- photographs from google+
 - [Understand JavaScript Callback Functions and Use Them](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them)
 
 ## Future Development
