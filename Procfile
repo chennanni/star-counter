@@ -1,1 +1,1 @@
-node app-config.jshe
+node app-config.js
